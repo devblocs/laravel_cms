@@ -1,0 +1,70 @@
+.dropdown-menu{left: -85px !important;}
+
+.more-space{
+    margin-bottom: 100px;
+}
+
+.form-card{
+    max-width:75%;
+    left: 150px;
+}
+
+.profile-card{
+    left: 30%
+}
+
+.table{
+    width: 80%;
+}
+
+.alert{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.edit-row{
+    margin-left: 15%;
+}
+
+.edit-profile-row{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.table-user-information{
+    width: 100%;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:20px;
+}
+
+.profile-img{
+    width: 150%;
+}
