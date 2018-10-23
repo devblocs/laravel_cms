@@ -42,9 +42,12 @@ class CategoriesController extends Controller
 
             // if category created then pass the message
             if($category){
-                return redirect()->back()->with('status', "Category created succesfully");
+
+                return response()->json(['status'=>true,'title'=>$category->title, 'id' => $category->id]);
             }else{
-                return redirect()->back()->with('error', "OOPS! Something went wrong");
+
+                return response()->json(['status'=>false,'data'=>null]);
+
             }
         }
     }
